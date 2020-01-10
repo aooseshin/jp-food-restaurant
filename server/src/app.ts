@@ -3,7 +3,6 @@ import { ENV } from './config';
 import to from 'await-to-js';
 import * as express  from 'express';
 import { restaurant } from './routes/restaurant';
-import path = require('path');
 
 const bodyParser = require('body-parser')
 

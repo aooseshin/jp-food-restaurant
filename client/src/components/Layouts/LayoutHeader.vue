@@ -7,9 +7,11 @@
       background-color="#545c64"
       text-color="#fff"
       active-text-color="#ffd04b">
-      <el-menu-item index="/">Home</el-menu-item>
-      <el-menu-item index="/page1">選單二</el-menu-item>
-      <el-menu-item index="/page2">選單三</el-menu-item>
+      <el-menu-item index="/">日式餐廳</el-menu-item>
+      <div class="menu-button" style="float: right">
+        <el-button type="danger" @click="$router.push('/tw/')">中文</el-button>
+        <el-button type="danger" @click="$router.push('/en/')">英文</el-button>
+      </div>
     </el-menu>
   </el-header>
 </template>
